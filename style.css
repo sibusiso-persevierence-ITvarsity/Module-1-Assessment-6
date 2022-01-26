@@ -1,0 +1,124 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(235, 235, 235, 0.863);
+}
+
+.gallery img{
+    width: 100%;
+}
+
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(24, 4, 134);
+    font-style: italic;
+}
+h3{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+    font-size: 30px;
+    color: rgb(182, 3, 3);
+    font-style: normal;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: bold;
+    color: rgb(3, 39, 107);
+}
+
+h5{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+    font-size: 20px;
+    color: rgb(4, 20, 245);
+    font-style: italic;
+}
+
+h6{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color:cadetblue;
+    font-weight: 600;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*============== MENU ==============*/
+#menu{
+    top: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(63, 143, 248);   
+}
+
+#menu a{
+    float: left;
+    display: block;
+    width: 33%;
+    height: 35px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+#menu a:hover{
+    color: greenyellow;
+}
+
+/*============== TABLE ==============*/
+
+table{
+    font-family:Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #05343b;
+}
+th{
+    font-weight: 800;
+    background-color: #2695A6;
+    color: white;
+    padding-right: 20px;
+    padding-left: 5px;
+}
+
+td{
+    border-top: 1px solid #b6b5b5;
+    background-color:white;
+}
+
+/*============== BUY NOW ==============*/
+
+#buynow{
+    width: 10%;
+    height: 30px;
+    background-color: rgb(0, 3, 185);
+    padding-top: 12px;
+}
+
+#buynow a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color:rgb(217, 233, 235);
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+#buynow a:hover{
+    color: rgb(118, 255, 244);
+}
